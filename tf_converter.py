@@ -10,7 +10,7 @@ shuffle_data = True  # shuffle the addresses before saving
 cat_dog_train_path = 'test/*.jpg'
 # read addresses and labels from the 'train' folder
 addrs = glob.glob(cat_dog_train_path)
-labels = [0 if '.jpg' in addr else 1 for addr in addrs]  # 0 = Cat, 1 = Dog
+labels = [0 if 'cat' in addr else 1 for addr in addrs]  # 0 = Cat, 1 = Dog
 # to shuffle data
 if shuffle_data:
     c = list(zip(addrs, labels))
