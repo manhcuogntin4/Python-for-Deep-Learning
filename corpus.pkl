@@ -1,0 +1,20 @@
+(((lp0
+S'This is train1'
+p1
+aS'This is train2'
+p2
+a(lp3
+I1
+aI0
+atp4
+((lp5
+S'This is test1'
+p6
+aS'This is test 2'
+p7
+a(lp8
+I1
+aF0.0
+atp9
+tp10
+.
